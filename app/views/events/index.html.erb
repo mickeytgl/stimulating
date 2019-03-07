@@ -1,0 +1,9 @@
+<div data-controller="hello">
+  <input data-target="hello.name" type="text" data-action="paste->hello#paste">
+  <button data-action="click->hello#log">Log</button>
+</div>
+
+<div data-controller="clipboard">
+  PIN: <input data-target="clipboard.source" type="text" value="1234" readonly>
+  <button data-action="clipboard#copy">Copy to Clipboard</button>
+</div>
